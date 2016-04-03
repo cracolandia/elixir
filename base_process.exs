@@ -30,7 +30,6 @@ ExUnit.start
 
 defmodule Base.Process.Test do
 	use ExUnit.Case, async: true
-	# import ExUnit.CaptureIO
 
 	setup do
 		pid = spawn fn -> Base.Process.init end
