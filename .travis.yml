@@ -1,0 +1,15 @@
+language: elixir
+elixir:
+  - 1.2.2
+otp_release:
+  - 18.2.1
+
+before_script
+
+script:
+  elixir base_algo.exs
+  elixir base_attr.exs
+  elixir base_list.exs
+  elixir base_math.exs
+  elixir base_process.exs
+  elixir base_types.exs
