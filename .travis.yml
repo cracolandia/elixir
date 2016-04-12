@@ -7,9 +7,4 @@ otp_release:
   - 18.2.1
 
 script:
-  - elixir base_algo.exs
-  - elixir base_attr.exs
-  - elixir base_list.exs
-  - elixir base_math.exs
-  - elixir base_process.exs
-  - elixir base_types.exs
+  - mix test
